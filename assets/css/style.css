@@ -505,7 +505,9 @@ font-family: 'Ubuntu', sans-serif;
 
 #hero .container {
   position: relative;
+  /* padding-top: 110px; */
   padding-top: 180px;
+
 }
 #hero p span {
   font-size: 22px;
@@ -564,7 +566,8 @@ font-family: 'Ubuntu', sans-serif;
  */
 
 #hero h1 {
-  font-size: 72px;
+  /* font-size: 72px; */
+  font-size: calc(2em + 2vw);
   font-family: 'Ubuntu', sans-serif;
   font-weight: 900;
   background-color: #ff5500;
